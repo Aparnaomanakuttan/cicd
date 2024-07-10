@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: gcr.io/assignment2-424823/backend:v1
+        image: gcr.io/$PROJECT_ID/frontend-ui:$SHORT_SHA
         ports:
         - containerPort: 5000
       imagePullSecrets:
